@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "openapi": []
+  },
+  "runtime": "Nodejs18.15",
+  "memorySize": 512,
+  "timeout": 60
+}

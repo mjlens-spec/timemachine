@@ -1,0 +1,18 @@
+<view class="container">
+  <view class="hero">
+    <view class="title">考卷批阅</view>
+    <view class="subtitle">拍一张照片，秒出对错和答案</view>
+  </view>
+
+  <view class="actions">
+    <button class="btn-primary big" bindtap="onCapture">拍考卷批阅</button>
+    <button class="btn-secondary" bindtap="onHistory">查看历史</button>
+  </view>
+
+  <view class="tips">
+    <view class="tip-title">拍照小贴士</view>
+    <view class="tip-item">把考卷放平整，避免折角</view>
+    <view class="tip-item">光线均匀，避免阴影遮挡</view>
+    <view class="tip-item">一次拍一面，文字清晰可读</view>
+  </view>
+</view>

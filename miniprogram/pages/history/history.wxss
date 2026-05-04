@@ -1,0 +1,38 @@
+.empty {
+  text-align: center;
+  padding: 120rpx 0;
+  color: #888;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 16rpx;
+}
+
+.item {
+  background: white;
+  border-radius: 16rpx;
+  padding: 32rpx;
+  display: flex;
+  align-items: center;
+}
+
+.item-main {
+  flex: 1;
+}
+
+.item-subject {
+  font-weight: 600;
+  font-size: 32rpx;
+}
+
+.item-meta {
+  margin-top: 8rpx;
+  color: #888;
+}
+
+.item-arrow {
+  color: #ccc;
+  font-size: 48rpx;
+}

@@ -1,0 +1,26 @@
+<view class="card {{question.isCorrect ? 'correct' : 'wrong'}}">
+  <view class="header">
+    <view class="number">第 {{question.number}} 题</view>
+    <view class="badge {{question.isCorrect ? 'badge-ok' : 'badge-err'}}">
+      {{question.isCorrect ? '正确' : '错误'}}
+    </view>
+  </view>
+
+  <view class="stem">{{question.stem}}</view>
+
+  <view class="row">
+    <view class="label">学生答案</view>
+    <view class="value {{question.isCorrect ? 'value-ok' : 'value-err'}}">
+      {{question.studentAnswer || '（未作答）'}}
+    </view>
+  </view>
+
+  <view class="row" wx:if="{{!question.isCorrect}}">
+    <view class="label">正确答案</view>
+    <view class="value value-ok">{{question.correctAnswer}}</view>
+  </view>
+
+  <view class="warn" wx:if="{{question.confidence !== undefined && question.confidence < 0.6}}">
+    识别不太确定，建议人工复核
+  </view>
+</view>

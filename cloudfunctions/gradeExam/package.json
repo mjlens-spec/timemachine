@@ -1,0 +1,9 @@
+{
+  "name": "gradeExam",
+  "version": "1.0.0",
+  "description": "Grade exam papers via Xiaomi MiMo-V2-Omni multimodal API",
+  "main": "index.js",
+  "dependencies": {
+    "wx-server-sdk": "~2.6.3"
+  }
+}

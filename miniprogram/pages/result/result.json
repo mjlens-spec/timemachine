@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "批阅结果",
+  "usingComponents": {
+    "question-card": "/components/question-card/question-card"
+  }
+}

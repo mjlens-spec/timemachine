@@ -1,0 +1,21 @@
+<view class="container">
+  <view wx:if="{{loading}}" class="empty">加载中...</view>
+  <view wx:elif="{{records.length === 0}}" class="empty">还没有批阅记录</view>
+  <view wx:else class="list">
+    <view
+      class="item"
+      wx:for="{{records}}"
+      wx:key="_id"
+      data-idx="{{index}}"
+      bindtap="onTap"
+    >
+      <view class="item-main">
+        <view class="item-subject">{{item.result.subject || '未识别科目'}}</view>
+        <view class="item-meta">
+          {{item.result.summary.correct}} / {{item.result.summary.total}} 题正确
+        </view>
+      </view>
+      <view class="item-arrow">›</view>
+    </view>
+  </view>
+</view>

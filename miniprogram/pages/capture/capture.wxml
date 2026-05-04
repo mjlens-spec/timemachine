@@ -1,0 +1,18 @@
+<view class="container">
+  <view class="preview" wx:if="{{imagePath}}">
+    <image src="{{imagePath}}" mode="widthFix" class="preview-img" />
+    <button class="btn-secondary" bindtap="onChooseImage" disabled="{{uploading}}">重新选择</button>
+  </view>
+
+  <view class="empty" wx:else>
+    <view class="empty-icon">+</view>
+    <view class="empty-text">点击下方按钮拍照或从相册选择</view>
+    <button class="btn-primary big" bindtap="onChooseImage">选择考卷照片</button>
+  </view>
+
+  <view class="actions" wx:if="{{imagePath}}">
+    <button class="btn-primary big" bindtap="onSubmit" disabled="{{uploading}}">
+      {{uploading ? '批阅中...' : '开始批阅'}}
+    </button>
+  </view>
+</view>

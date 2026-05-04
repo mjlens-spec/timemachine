@@ -1,0 +1,39 @@
+<view class="container" wx:if="{{result}}">
+  <view class="summary">
+    <view class="subject" wx:if="{{result.subject}}">{{result.subject}}</view>
+    <view class="score-row">
+      <view class="score-item">
+        <view class="score-num ok">{{result.summary.correct}}</view>
+        <view class="score-label">答对</view>
+      </view>
+      <view class="score-item">
+        <view class="score-num err">{{result.summary.total - result.summary.correct}}</view>
+        <view class="score-label">答错</view>
+      </view>
+      <view class="score-item">
+        <view class="score-num">{{result.summary.total}}</view>
+        <view class="score-label">总题数</view>
+      </view>
+    </view>
+    <view class="score-final" wx:if="{{result.summary.score !== undefined}}">
+      得分：<text class="score-final-num">{{result.summary.score}}</text> 分
+    </view>
+  </view>
+
+  <view class="questions">
+    <question-card
+      wx:for="{{result.questions}}"
+      wx:key="number"
+      question="{{item}}"
+    />
+  </view>
+
+  <view class="actions">
+    <button class="btn-primary" bindtap="onAgain">再批一张</button>
+    <button class="btn-secondary" bindtap="onBackHome">回到首页</button>
+  </view>
+</view>
+
+<view class="container" wx:else>
+  <view class="empty">没有批阅结果</view>
+</view>

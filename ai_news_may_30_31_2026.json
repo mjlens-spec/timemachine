@@ -1,0 +1,119 @@
+[
+  {
+    "title": "SoftBank Announces €75 Billion Investment in French AI Data Centers",
+    "title_zh": "软银宣布投资750亿欧元在法国建设AI数据中心",
+    "source": "Bloomberg",
+    "time": "May 30, 2026",
+    "summary_zh": "软银集团计划投资最高达750亿欧元（约870亿美元）在法国建设500万千瓦的人工智能数据中心容量。首阶段计划投资450亿欧元，将在哈欧特-德-法地区部署310万千瓦的AI数据中心容量，预计到2031年完成。第一阶段的计划涉及在敦刻尔克、博斯凯尔和布尚建设数据中心。这项投资标志着软银在欧洲最大的AI基础设施投资，是法国2026年选择法国峰会的一部分。施耐德电气将在敦刻尔克站点成为战略合作伙伴，创建一个AI基础设施和机器人制造中心，服务于伦敦、布鲁塞尔和阿姆斯特丹。这项宣布跟随软银在3月份宣布在俄亥俄州建立大规模数据中心项目的消息，并建立在与OpenAI、甲骨文公司和阿布扎比MGX合作的500亿美元星门倡议基础上。",
+    "url": "https://www.bloomberg.com/news/articles/2026-05-30/softbank-to-invest-some-75-billion-in-ai-in-france-reports-say",
+    "is_english": true
+  },
+  {
+    "title": "Meta Developing AI Pendant for Continuous Personal AI Assistant",
+    "title_zh": "Meta开发AI吊坠以作为持续的个人AI助手",
+    "source": "TechCrunch",
+    "time": "May 30, 2026",
+    "summary_zh": "根据《信息报》报道，Meta正在开发一款AI吊坠，计划在明年开始测试。这个可穿戴设备预计将作为一个持续可用的个人AI助手，能够捕获对话、生成转录、总结会议并从日常互动中创建可搜索的记忆。这款吊坠可以夹在衣服上或像项链一样戴在脖子上，有可能全天充当个人AI助手。该设备预计将建立在Meta在2025年年底收购的AI设备初创公司Limitless的工作基础上。Limitless曾推出了一款AI吊坠，用户可以将其附在衬衫上或作为项链佩戴来记录对话。公司还计划在年底前发布多达四款额外的智能眼镜型号，作为弥补其Reality Labs部门巨大损失的激进计划的一部分。Meta还计划推出一项名为\"Wearables for Work\"的商业聚焦订阅服务，并计划在2026年下半年实现1000万个可穿戴设备的销售目标。",
+    "url": "https://techcrunch.com/2026/05/30/meta-is-reportedly-developing-an-ai-pendant/",
+    "is_english": true
+  },
+  {
+    "title": "MiniMax Begins China A-Share IPO Process",
+    "title_zh": "MiniMax启动中国A股IPO程序",
+    "source": "Bloomberg",
+    "time": "May 30, 2026",
+    "summary_zh": "中国MiniMax集团有限公司已开始准备在国内上市，向上海证券监管部门提交了上市指导申报报告，正式启动其A股上市程序。中信证券将担任指导机构。这一举措是在MiniMax在香港市场表现强劲的基础上进行的。其股票在5月29日周五收于840港元，市值约为2640亿港元或约337亿美元，相比IPO价格上涨约400%。该申报是在这家总部位于上海的公司于今年1月在香港首次公开募股后提出的，当时它加入了一波转向公开市场以资助成本高昂的模型开发和扩展的中国AI公司浪潮。MiniMax作为一家快速增长的人工智能初创公司，正在挑战包括DeepSeek在内的本地竞争对手。",
+    "url": "https://www.bloomberg.com/news/articles/2026-05-30/minimax-plans-china-ipo-as-it-eyes-local-rivals-like-deepseek",
+    "is_english": true
+  },
+  {
+    "title": "Computex 2026: Nvidia and Microsoft Announce \"New Era of PC\" with N1X Chip",
+    "title_zh": "Computex 2026：Nvidia和微软宣布配备N1X芯片的\"新个人电脑时代\"",
+    "source": "Bloomberg, TechCrunch",
+    "time": "May 29, 2026",
+    "summary_zh": "Nvidia公司的CEO黄仁勋率领一批AI计算领导者参加亚洲最大的科技展览会Computex。这一年度计算展览会将于6月2日至5日在台北举行，将展示数月来已暗示的新计算平台。在5月29日，Nvidia和微软发布了相同的\"新个人电脑时代\"预告，隐藏了指向台北南港展览中心的坐标，这是Computex 2026的举办地。业界预计Nvidia将在Computex 2026期间推出其N1X芯片，这款芯片将为基于ARM的新款Windows笔记本电脑提供动力，并包含强大的GeForce图形芯片。一月份的泄露资料表明，这款处理器将是一个\"20核Arm + RTX GPU怪兽\"。英特尔和高通CEO也将在该活动中发表各自的主题演讲。此外，Apple的599美元MacBook Neo已经震撼了整个个人电脑行业，而应对措施将在Computex展示大厅遍布各处。",
+    "url": "https://www.bloomberg.com/news/articles/2026-05-29/computex-2026-what-to-watch-from-nvidia-intel-at-asia-s-top-ai-tech-show",
+    "is_english": true
+  },
+  {
+    "title": "Google Launches Gemini Spark: 24/7 Agentic AI Assistant",
+    "title_zh": "Google推出Gemini Spark：24/7代理AI助手",
+    "source": "TechCrunch, Google Cloud Blog",
+    "time": "May 29, 2026",
+    "summary_zh": "Google在I/O 2026大会推出的Gemini Spark代理AI助手于5月29日在美国为Google AI Ultra订阅者推出。Gemini Spark是Google的24/7个人代理，旨在自动化任务。在网络上，它在侧面板中显示为新的\"Spark\"选项卡，而在Android和iOS上，它显示在搜索聊天和每日简报之间，处于\"测试版\"状态。Gemini Spark目前集成Google Workspace、其他连接应用、个人智能、已登录的网站和位置数据，以及远程浏览器，可以自动保存信息。代理有三个核心组件：任务（您希望完成的高级目标）、计划（确定Spark应何时自动运行，例如\"每天上午8点\"）和技能（可重用的说明和背景）。这标志着Google向自主AI代理时代的重大转变，将AI从被动的信息检索转变为主动的任务执行。",
+    "url": "https://techcrunch.com/2026/05/19/google-introduces-gemini-spark-a-24-7-agentic-assistant-with-gmail-integration/",
+    "is_english": true
+  },
+  {
+    "title": "Anthropic Raises $65 Billion in Series H Funding, Valuation Reaches $965 Billion",
+    "title_zh": "Anthropic筹集650亿美元H轮融资，估值达9650亿美元",
+    "source": "Bloomberg, CNBC",
+    "time": "May 28, 2026",
+    "summary_zh": "Anthropic在由Altimeter Capital、Dragoneer、Greenoaks和Sequoia Capital领导的融资中筹集了650亿美元，公司估值达到9650亿美元，首次超过竞争对手OpenAI的估值。Anthropic报告运行速率收入为470亿美元，高于今年早期的300亿美元运行速率，去年年度收入为100亿美元。这笔融资的每个主要投资者投入超过20亿美元。Anthropic的这一成就标志着AI行业中的重要里程碑，表明其Claude模型在商业应用中的广泛采用。融资将用于继续开发更先进的AI模型，扩展国际业务，以及投资AI安全和对齐研究。",
+    "url": "https://www.bloomberg.com/news/articles/2026-05-28/anthropic-raises-at-965-billion-valuation-eclipsing-openai",
+    "is_english": true
+  },
+  {
+    "title": "Anthropic Releases Claude Opus 4.8 with Enhanced Coding and Agentic Capabilities",
+    "title_zh": "Anthropic发布Claude Opus 4.8，增强编码和代理能力",
+    "source": "Anthropic, MacRumors",
+    "time": "May 28, 2026",
+    "summary_zh": "Anthropic在5月28日宣布将Claude Opus升级到新版本：Claude Opus 4.8。它在Opus 4.7的基础上进行了改进，跨基准测试提供了更好的性能，并成为更有效的协作者，价格与Opus 4.7相同。该模型被描述为具有\"更敏锐的判断力、对其进展的更诚实反馈，以及比前任更长时间独立工作的能力\"。Opus 4.8在SWE-Bench Pro测试中得分69.2%，在此测试上超越GPT-5.5和Gemini 3.1 Pro。在Super-Agent基准测试中，Claude Opus 4.8是唯一完成每个案例端到端的模型，以相同成本击败了先前的Opus模型和GPT-5.5。claude.ai上的用户现在可以控制Claude投入到任务中的工作量，Claude Code拥有新的\"动态工作流\"功能，允许其处理非常大规模的问题。Opus 4.8的快速模式（模型可以以2.5倍速度工作）现在比以前模型的成本便宜三倍。Claude Opus 4.8今天在各处推出，定期使用的定价与Opus 4.7相比没有变化。",
+    "url": "https://www.anthropic.com/news/claude-opus-4-8",
+    "is_english": true
+  },
+  {
+    "title": "Apple iOS 27 Features Major Siri Overhaul with AI Capabilities",
+    "title_zh": "Apple iOS 27具有AI能力的Siri大规模改革",
+    "source": "Bloomberg, 9to5Mac",
+    "time": "May 28, 2026",
+    "summary_zh": "Apple即将发布的Siri改革将成为其下一代iPhone、iPad和Mac软件更新的中心，该公司计划在6月8日的全球开发者大会上宣布这些变化。Apple在iOS 27中引入了经过彻底改造的Siri版本，将这个个人助手演变为能与ChatGPT、Claude和Gemini竞争的更强大的聊天机器人和AI代理。重建的Siri模型使用Google Gemini技术、AI驱动的网络搜索和完全重新设计的界面。在iOS 27中，Siri将主要存在于动态岛中，但也会有专用的Siri应用。从任何应用顶部中心向下滑动将激活系统范围的搜索界面，动态岛中有\"搜索或提问\"栏，用于输入或语音提问。除了Siri外，iOS 27还包括Apple Intelligence下的新工具，例如\"扩展\"、\"增强\"和\"重新组合\"图像的选项，加入了照片应用中现有的\"清理\"功能。iOS 27摄像头应用将拥有与现有\"照片\"、\"视频\"、\"肖像\"和\"全景\"模式一起提供的专用Siri模式。Apple已在内部测试了Siri和其他AI功能与Google的Gemini和Anthropic PBC的Claude的整合。",
+    "url": "https://www.bloomberg.com/news/features/2026-05-28/apple-ios-27-photos-screenshots-revamped-siri-pro-camera-app-new-ai-features",
+    "is_english": true
+  },
+  {
+    "title": "OpenAI Files Confidential S-1 IPO Prospectus, Targets $852 Billion to $1 Trillion Valuation",
+    "title_zh": "OpenAI提交保密S-1 IPO招股说明书，目标估值8520亿至1万亿美元",
+    "source": "Fortune, Multiple Tech Publications",
+    "time": "May 22, 2026",
+    "summary_zh": "OpenAI于5月22日向美国证券交易委员会提交了保密的S-1 IPO招股说明书，目标在2026年第四季度进行公开上市，估值在8520亿美元至1万亿美元之间。高盛和摩根士丹利主导这笔交易。截至2026年2月，OpenAI的年化收入达到约250亿美元，高于2025年底的200亿美元。然而，这份申报来临之际，OpenAI在2026年第一季度每创收1美元就亏损1.22美元。在2025全年，OpenAI创造了131亿美元的收入，但花费约220亿美元来实现这一目标，净亏损约90亿美元。内部预测表明2026年运营亏损为140亿美元。如果成功，OpenAI将成为有史以来首次公开募股估值最高的美国公司。",
+    "url": "https://fortune.com/2026/05/22/openai-ipo-filing-1-trillion-may-finally-answer-these-big-questions/",
+    "is_english": true
+  },
+  {
+    "title": "OpenAI Publishes Frontier Governance Framework for AI Safety and Compliance",
+    "title_zh": "OpenAI发布前沿治理框架用于AI安全和合规",
+    "source": "OpenAI",
+    "time": "May 29, 2026",
+    "summary_zh": "OpenAI于5月29日发布了其前沿治理框架，这是一份公开文档，解释其安全和安全实践如何与加州透明度前沿AI法案和欧盟AI法案通用目的AI实践守则相对应。该框架涵盖对网络犯罪、化学生物放射核生物风险、有害操纵和\"失控\"场景的风险评估。这份文件展示了OpenAI如何将其安全实践与新兴的法律要求保持一致，标志着AI公司治理和合规方面的一个重要步骤。",
+    "url": "https://openai.com/index/openai-frontier-governance-framework/",
+    "is_english": true
+  },
+  {
+    "title": "OpenAI Expands ChatGPT Advertising Platform with Enhanced Ad Formats",
+    "title_zh": "OpenAI扩展ChatGPT广告平台，增强广告格式",
+    "source": "OpenAI",
+    "time": "May 2026",
+    "summary_zh": "OpenAI正在测试ChatGPT内的升级广告格式，包括更大的图像、可自定义的行动号召按钮和展示定价和客户评论的专用电子商务布局。该公司还在建立更先进的广告基础设施，包括受众定位、基于结果的优化、转换跟踪和自助竞选管理。这一举措显示OpenAI开始通过广告平台创新来扩大其商业模式，以补充API收入和订阅收入。",
+    "url": "https://openai.com/news/",
+    "is_english": true
+  },
+  {
+    "title": "OpenAI Expands ChatGPT with Computer Use on Windows and Improved Code Blocks",
+    "title_zh": "OpenAI通过Windows计算机使用和改进的代码块扩展ChatGPT",
+    "source": "OpenAI, ChatGPT Release Notes",
+    "time": "May 2026",
+    "summary_zh": "OpenAI在ChatGPT和API中更新了GPT-5.5 Instant，以改进响应风格和质量，使其更易于阅读，在日常对话中更自然，在实际帮助任务中节奏更好，过度冗长或过多项目符号的响应更少。ChatGPT现在在聊天响应中直接支持写作和编码功能，通过写作块和代码块实现。ChatGPT还扩展了Codex，支持Windows上的计算机使用，允许符合条件的用户查看、点击和在Windows应用中输入，同时测试、调试和改进他们正在构建的内容。这些更新展示了OpenAI对改进其核心ChatGPT产品的持续承诺。",
+    "url": "https://openai.com/news/",
+    "is_english": true
+  },
+  {
+    "title": "DuckDuckGo App Installs Surge 30% as Users Reject Google's AI-Driven Search",
+    "title_zh": "DuckDuckGo应用安装量激增30%，因用户拒绝Google的AI驱动搜索",
+    "source": "TechCrunch",
+    "time": "May 26, 2026",
+    "summary_zh": "隐私保护搜索引擎DuckDuckGo报告称，在Google宣布AI代理将越来越多地取代传统搜索结果后，应用安装量和搜索活动出现了重大增长。DuckDuckGo表示美国应用安装量平均周环比上升超过18%，高峰期超过30%，因为用户寻求提供更多AI使用控制权的替代方案。Google在I/O 2026大会上改造了Search，用AI代理替换了蓝色链接，这引发了用户对AI驱动搜索结果可控性的关注。这一趋势反映了对基于AI的搜索方法和偏好更传统搜索体验的用户的越来越多的担忧。",
+    "url": "https://techcrunch.com/2026/05/26/duckduckgo-installs-are-up-30-as-users-reject-being-force-fed-googles-ai-search/",
+    "is_english": true
+  }
+]

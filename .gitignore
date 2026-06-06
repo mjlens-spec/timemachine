@@ -1,0 +1,11 @@
+# 客户一手敏感数据（S 级原始：CRM / 销售 / 平台后台截图 / 客户内部文件）——绝不入库
+projects/**/_raw/
+**/_raw/
+
+# 临时与系统文件
+.DS_Store
+Thumbs.db
+*.swp
+*.tmp
+.idea/
+.vscode/

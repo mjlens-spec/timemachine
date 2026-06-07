@@ -1,6 +1,6 @@
 # 05 · 激荡与推演
 
-> 阶段 5 工件（🧭 引导段）。复制进 `projects/<...>/05-tactical-deduction.md`。
+> 阶段 4 工件（🧭 引导段）。复制进 `projects/<...>/05-tactical-deduction.md`。
 > 玩法见 `../references/tactical-deduction.md`。输入是 `04` 锚点洞察，输出是选定方向的战术骨架 + 策略主张 + STEP 9 交接块。
 
 ---
@@ -72,4 +72,4 @@ Option 3 · ...
 ```
 
 ---
-*下一步：进入阶段 6 具体测算（`../references/calculation.md`）。*
+*下一步：进入阶段 5 具体测算（`../references/calculation.md`）。*

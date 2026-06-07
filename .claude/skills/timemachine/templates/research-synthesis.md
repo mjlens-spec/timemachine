@@ -1,7 +1,7 @@
 # 03 · 研究综述（洞察导向 · 多 Subagent fan-out）
 
-> 阶段 3 工件（🛠 产出段）。复制进 `projects/<...>/03-research-synthesis.md`。
-> 九段结构沿用现有 SOP STEP 8 的 Research Brief；**§0 综述摘要**与**§10 矛盾与异常清单**是时间机器加项。§10 是阶段 4 洞察引擎的起点。
+> 阶段 2 工件（🛠 产出段）。复制进 `projects/<...>/03-research-synthesis.md`。
+> 九段结构沿用现有 SOP STEP 8 的 Research Brief；**§0 综述摘要**与**§10 矛盾与异常清单**是时间机器加项。§10 是阶段 3 洞察引擎的起点。
 > **规矩**：每条事实/数据断言后跟 `（来源·级别）`；纯 C 级核心结论标「待验证」。跑法见 `../references/research-playbook.md`。
 
 ---
@@ -57,4 +57,4 @@
 | 3 | 过去 ___ 成立，但最近 ___ | | 文化位移 |
 | 4 | | | |
 
-> §8 与 §10 都必须非空。填完进阶段 4（`../references/insight-engine.md`）。
+> §8 与 §10 都必须非空。填完进阶段 3（`../references/insight-engine.md`）。

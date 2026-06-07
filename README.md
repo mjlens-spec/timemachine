@@ -15,28 +15,31 @@
 客户 brief
    │
    ▼
-【时间机器】研判定位 → Brief 解码 → 研究综述 → 反直觉洞察 → 激荡推演 → 数据测算   ← 本 skill
+【时间机器】研判定位 → 竞品研究与 Brief（并行）→ 反直觉洞察 → 激荡推演 → 数据测算   ← 本 skill
    │
    ▼
-[成稿 / 提案 / PPT / 演讲稿]                                        ← 现有「AI 营销方案工作流 SOP」STEP 9–13
+[成稿 / 提案 / PPT / 演讲稿]                                          ← 现有「AI 营销方案工作流 SOP」STEP 9–13
 ```
 
 时间机器从研判定位一路走到数据测算，**不重做全量数据采集，也不写 PPT / 演讲稿**。它的产出（`05-tactical-deduction.md` 的「STEP 9 交接块」+ `06-calculation.md` 的测算）直接喂给现有 SOP 的成稿生产。
 
-## 八个阶段（每段标人机模式）
+## 一条关键纪律：研究先行，洞察后置
+
+先把竞品研究和 Brief 跑出来、汇总，再讨论洞察切入点候选。阶段 1 只下「找差异化空位」的立场，**不在空想阶段锁定具体切入点**；切入点候选必须长在阶段 2 的研究汇总之上（阶段 3 才谈）。
+
+## 七个阶段（每段标人机模式）
 
 | 阶段 | 名称 | 模式 | 工件 |
 |---|---|---|---|
 | 0 | 立项 | ⚙️ 执行 | `README.md` |
-| 1 | 研判与定位 | 🧭 引导 | `00-positioning.md` |
-| 2 | Brief 解码 + 数据营销 Brief | ⚙️ 执行 | `01-brief-decode.md`、`02-data-marketing-brief.md` |
-| 3 | 研究综述（多 Subagent fan-out） | 🛠 产出 | `03-research-synthesis.md` |
-| 4 | 反直觉洞察 · 共创（四把刀） | 🤝 共创 | `04-insight-canvas.md` |
-| 5 | 激荡与推演 | 🧭 引导 | `05-tactical-deduction.md` |
-| 6 | 具体测算 | 🛠 产出 | `06-calculation.md` |
-| 7 | 持久化与同步 | ⚙️ 执行 | 更新 `README.md` + git |
+| 1 | 研判与定位（只下立场） | 🧭 引导 | `00-positioning.md` |
+| 2 | 竞品研究与 Brief（并行前置） | 🛠 产出 + ⚙️ | `01-brief-decode.md`、`02-data-marketing-brief.md`、`03-research-synthesis.md` |
+| 3 | 反直觉洞察 · 共创（四个切入点） | 🤝 共创 | `04-insight-canvas.md` |
+| 4 | 激荡与推演 | 🧭 引导 | `05-tactical-deduction.md` |
+| 5 | 具体测算 | 🛠 产出 | `06-calculation.md` |
+| 6 | 持久化与同步 | ⚙️ 执行 | 更新 `README.md` + git |
 
-🧭 引导段（阶段 1、5）AI 先问后给，把判断逼给你；🛠 产出段（阶段 3、6）AI 重干活。这条分工线就是「引导成长」和「得到结果」并存的关键。
+**阶段 2 是核心调整点**：多个子 agent 并行做全网研究、同时生成 Brief，汇总成研究综述之后，才进阶段 3 讨论洞察切入点。🧭 引导段（阶段 1、4）AI 先问后给，把判断逼给你；🛠 产出段（阶段 2、5）AI 重干活。
 
 ## 怎么用
 
@@ -46,7 +49,7 @@
 /timemachine <粘贴一段 brief 或一个 Notion 链接>
 ```
 
-skill 会带你走八个阶段。详见 `.claude/skills/timemachine/SKILL.md`；方法论脊柱见 `.claude/skills/timemachine/references/methodology.md`。
+skill 会带你走七个阶段。详见 `.claude/skills/timemachine/SKILL.md`；方法论脊柱见 `.claude/skills/timemachine/references/methodology.md`。
 
 ## 数据纪律
 

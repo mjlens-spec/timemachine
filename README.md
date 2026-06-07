@@ -1,6 +1,8 @@
 # timemachine · 时间机器
 
-一台**反直觉洞察引擎**——把客户 brief 变成那个反常识、能成为整盘策略锚点的洞察。
+一台**引导式营销方法论程序**。它不是替你产出结论的交付引擎，而是用一条固定路径，带你从 brief 走到反直觉的打法，让判断在你脑子里长出来，并沉淀成你自己的方法。
+
+底层逻辑是**量化悖论**：优秀做法会 alpha 衰减成人人能用因而失效的 beta，所以要研判格局、找空位、做同行还没据此行动的反直觉差异化。
 
 本仓库有两个身份：
 
@@ -13,16 +15,28 @@
 客户 brief
    │
    ▼
-[研究 / Research Brief]            ← 现有「AI 营销方案工作流 SOP」STEP 1–8
+【时间机器】研判定位 → Brief 解码 → 研究综述 → 反直觉洞察 → 激荡推演 → 数据测算   ← 本 skill
    │
    ▼
-【时间机器】Brief 解码 → 自动洞察研究 → 洞察引擎共创 → 策略依据   ← 本 skill
-   │
-   ▼
-[主文稿 / 提案 / PPT / 演讲稿]      ← 现有 SOP STEP 9–13
+[成稿 / 提案 / PPT / 演讲稿]                                        ← 现有「AI 营销方案工作流 SOP」STEP 9–13
 ```
 
-时间机器**只做前端的"找洞察"**：不重做全量数据采集，也不写 PPT / 演讲稿。它的产出（`04-strategy-basis.md` 里的"策略依据 + STEP 9 交接块"）直接喂给现有 SOP 的主文稿生产。
+时间机器从研判定位一路走到数据测算，**不重做全量数据采集，也不写 PPT / 演讲稿**。它的产出（`05-tactical-deduction.md` 的「STEP 9 交接块」+ `06-calculation.md` 的测算）直接喂给现有 SOP 的成稿生产。
+
+## 八个阶段（每段标人机模式）
+
+| 阶段 | 名称 | 模式 | 工件 |
+|---|---|---|---|
+| 0 | 立项 | ⚙️ 执行 | `README.md` |
+| 1 | 研判与定位 | 🧭 引导 | `00-positioning.md` |
+| 2 | Brief 解码 + 数据营销 Brief | ⚙️ 执行 | `01-brief-decode.md`、`02-data-marketing-brief.md` |
+| 3 | 研究综述（多 Subagent fan-out） | 🛠 产出 | `03-research-synthesis.md` |
+| 4 | 反直觉洞察 · 共创（四把刀） | 🤝 共创 | `04-insight-canvas.md` |
+| 5 | 激荡与推演 | 🧭 引导 | `05-tactical-deduction.md` |
+| 6 | 具体测算 | 🛠 产出 | `06-calculation.md` |
+| 7 | 持久化与同步 | ⚙️ 执行 | 更新 `README.md` + git |
+
+🧭 引导段（阶段 1、5）AI 先问后给，把判断逼给你；🛠 产出段（阶段 3、6）AI 重干活。这条分工线就是「引导成长」和「得到结果」并存的关键。
 
 ## 怎么用
 
@@ -32,12 +46,12 @@
 /timemachine <粘贴一段 brief 或一个 Notion 链接>
 ```
 
-skill 会带你走六个阶段（立项 → Brief 解码 → 自动研究 → 洞察共创 → 策略依据 → 持久化）。详见 `.claude/skills/timemachine/SKILL.md`。
+skill 会带你走八个阶段。详见 `.claude/skills/timemachine/SKILL.md`；方法论脊柱见 `.claude/skills/timemachine/references/methodology.md`。
 
 ## 数据纪律
 
 - 结构化工件入库；客户一手 S 级原始数据放 `projects/<...>/_raw/`，已被 `.gitignore` 排除，**不入库**。
-- 推送到 GitHub 前**一定先问你确认**。
+- 推送到 GitHub 前**一定先把要提交的文件列给你确认**。
 
 ## 想全局可用？
 

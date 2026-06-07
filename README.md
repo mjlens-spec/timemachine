@@ -1,64 +1,75 @@
 # timemachine · 时间机器
 
-一台**引导式营销方法论程序**。它不是替你产出结论的交付引擎，而是用一条固定路径，带你从 brief 走到反直觉的打法，让判断在你脑子里长出来，并沉淀成你自己的方法。
+> **English** ｜ [中文](README-CN.md) ｜ Works with both Codex & Claude Code
 
-底层逻辑是**量化悖论**：优秀做法会 alpha 衰减成人人能用因而失效的 beta，所以要研判格局、找空位、做同行还没据此行动的反直觉差异化。
+**timemachine** is a *guided marketing-strategy methodology program* — not a delivery engine. It walks you down a fixed path from a brief to a counter-intuitive play, letting the judgment grow in **your** head and settle into **your** method. The result is a by-product; the point is how you got there.
 
-本仓库有两个身份：
+The underlying logic is the **quant paradox**: a good tactic, once validated, proven, and understood by peers, generalizes — decaying from *alpha* into commoditized, ineffective *beta*. So in a crowded category, "copy the best practice" is structurally buying at the top. Differentiation isn't a style choice; it's the only rational move while the arbitrage window is still open. The whole job: **read the market structure → find the empty position → make a counter-intuitive call competitors haven't acted on yet.**
 
-1. **Skill 本体**：`.claude/skills/timemachine/` 是一个 Claude Code skill。在本仓库里输入 `/timemachine <客户名> <campaign / 或粘贴 brief>` 即可启动。
-2. **项目存档库**：每次作业的工件结构化写入 `projects/<客户拼音>-<日期>/`，随 git 版本管理。
+> Built for the Chinese social-marketing context (抖音 / 小红书 / 微博, KOL/KOC seeding). Methodology content is in Chinese; this page is the English overview.
 
-## 它在整套作业里的位置
+This repo has two identities:
+
+1. **The skill** — `.claude/skills/timemachine/` is a Claude Code skill. Run `/timemachine <client> <campaign / or paste a brief>` inside this repo.
+2. **The project archive** — each run writes structured artifacts to `projects/<client>-<date>/`, under version control.
+
+## Where it sits in the workflow
 
 ```
-客户 brief
+client brief
    │
    ▼
-【时间机器】研判定位 → 竞品研究与 Brief（并行）→ 反直觉洞察 → 激荡推演 → 数据测算   ← 本 skill
+【timemachine】Positioning → Competitor research & Brief (parallel) → Counter-intuitive insight → Tactical deduction → Calculation
    │
    ▼
-[成稿 / 提案 / PPT / 演讲稿]                                          ← 现有「AI 营销方案工作流 SOP」STEP 9–13
+[final deck / proposal / PPT / script]   ← existing "AI marketing SOP" STEP 9–13
 ```
 
-时间机器从研判定位一路走到数据测算，**不重做全量数据采集，也不写 PPT / 演讲稿**。它的产出（`05-tactical-deduction.md` 的「STEP 9 交接块」+ `06-calculation.md` 的测算）直接喂给现有 SOP 的成稿生产。
+timemachine runs from positioning all the way to data calculation. It does **not** redo full data collection and does **not** write the deck/script. Its output (the "STEP 9 handoff block" in `05-tactical-deduction.md` + the calculation in `06-calculation.md`) feeds the existing SOP's deck production.
 
-## 一条关键纪律：研究先行，洞察后置
+## Core discipline: research first, insight later
 
-先把竞品研究和 Brief 跑出来、汇总，再讨论洞察切入点候选。阶段 1 只下「找差异化空位」的立场，**不在空想阶段锁定具体切入点**；切入点候选必须长在阶段 2 的研究汇总之上（阶段 3 才谈）。
+Run the competitor research and the Brief first, aggregate them, **then** discuss insight angles. Phase 1 only sets the stance ("find the differentiated empty position") — it does **not** lock specific angles from the armchair. Angle candidates must grow on top of Phase 2's research synthesis (discussed in Phase 3). This keeps insights forced out of evidence, not guessed.
 
-## 七个阶段（每段标人机模式）
+## The seven phases
 
-| 阶段 | 名称 | 模式 | 工件 |
+| # | Phase | Mode | Artifacts |
 |---|---|---|---|
-| 0 | 立项 | ⚙️ 执行 | `README.md` |
-| 1 | 研判与定位（只下立场） | 🧭 引导 | `00-positioning.md` |
-| 2 | 竞品研究与 Brief（并行前置） | 🛠 产出 + ⚙️ | `01-brief-decode.md`、`02-data-marketing-brief.md`、`03-research-synthesis.md` |
-| 3 | 反直觉洞察 · 共创（四个切入点） | 🤝 共创 | `04-insight-canvas.md` |
-| 4 | 激荡与推演 | 🧭 引导 | `05-tactical-deduction.md` |
-| 5 | 具体测算 | 🛠 产出 | `06-calculation.md` |
-| 6 | 持久化与同步 | ⚙️ 执行 | 更新 `README.md` + git |
+| 0 | Setup | ⚙️ Execute | `README.md` |
+| 1 | Positioning (stance only) | 🧭 Guide | `00-positioning.md` |
+| 2 | Competitor research & Brief (parallel, front-loaded) | 🛠 Produce + ⚙️ | `01-brief-decode.md`, `02-data-marketing-brief.md`, `03-research-synthesis.md` |
+| 3 | Counter-intuitive insight · co-creation (four angles) | 🤝 Co-create | `04-insight-canvas.md` |
+| 4 | Tactical ideation & deduction | 🧭 Guide | `05-tactical-deduction.md` |
+| 5 | Calculation | 🛠 Produce | `06-calculation.md` |
+| 6 | Persist & sync | ⚙️ Execute | update `README.md` + git |
 
-**阶段 2 是核心调整点**：多个子 agent 并行做全网研究、同时生成 Brief，汇总成研究综述之后，才进阶段 3 讨论洞察切入点。🧭 引导段（阶段 1、4）AI 先问后给，把判断逼给你；🛠 产出段（阶段 2、5）AI 重干活。
+🧭 **Guide** phases (1, 4): the agent asks before it answers, pushing judgment back to you. 🛠 **Produce** phases (2, 5): the agent does the heavy lifting. 🤝 **Co-create** (3): it diverges into candidates and self-refutes; you keep/kill/combine. This split is what keeps "grow the user's thinking" and "get a result" both alive.
 
-## 怎么用
+## Compatibility: Claude Code & Codex
+
+The methodology lives as plain Markdown under `.claude/skills/timemachine/` (`SKILL.md` + `references/` + `templates/`), so any coding agent can read it.
+
+- **Claude Code** — it's a native skill. Run `/timemachine <client> <campaign>`. Phase 2 uses the `Agent` sub-agent to fan out web research in parallel.
+- **Codex (or any agent)** — read [`AGENTS.md`](AGENTS.md) at the repo root; Codex picks it up automatically, and it points to the same `SKILL.md` phases and reference files. Where a phase calls for a "sub-agent fan-out" (Phase 2) and the tool has no sub-agents, just run the same research as several sequential/parallel passes yourself. When Claude-only data sources (Notion / platform back-ends) aren't reachable, ask the user to paste the data instead.
+
+## How to use
 
 ```
 /timemachine 羽感 大声唱
 /timemachine 奇正 疼痛人群 双11
-/timemachine <粘贴一段 brief 或一个 Notion 链接>
+/timemachine <paste a brief or a Notion link>
 ```
 
-skill 会带你走七个阶段。详见 `.claude/skills/timemachine/SKILL.md`；方法论脊柱见 `.claude/skills/timemachine/references/methodology.md`。
+The skill walks you through the seven phases. See `.claude/skills/timemachine/SKILL.md`; the methodology spine is in `.claude/skills/timemachine/references/methodology.md`.
 
-## 数据纪律
+## Data discipline
 
-- 结构化工件入库；客户一手 S 级原始数据放 `projects/<...>/_raw/`，已被 `.gitignore` 排除，**不入库**。
-- 推送到 GitHub 前**一定先把要提交的文件列给你确认**。
+- Structured artifacts are committed; the client's first-party **S-level** raw data goes to `projects/<...>/_raw/`, which is `.gitignore`d and **never committed**.
+- Always list the files and confirm before pushing to GitHub.
 
-## 想全局可用？
+## Install globally (optional)
 
-默认它是本仓库的项目级 skill。若想在任何目录都能用，可软链到个人 skills：
+By default it's a project-level skill. To use it from any directory, symlink it into your personal skills:
 
 ```bash
 ln -s "$(pwd)/.claude/skills/timemachine" ~/.claude/skills/timemachine

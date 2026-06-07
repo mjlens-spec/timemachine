@@ -67,6 +67,10 @@ allowed-tools:
 ```
 `05-tactical-deduction.md` 里的「STEP 9 交接块」可直接粘进现有 SOP STEP 9 的 Claude 主脑 prompt。
 
+## 兼容性（Claude Code / Codex）
+
+本 skill 内容是纯 Markdown，**Claude Code 与 Codex 双兼容**。Claude Code 里 `/timemachine` 原生启动、阶段 2 用 `Agent` 子代理并行研究；Codex 等读根目录 `AGENTS.md` 入口、按同一套阶段执行，没有子代理工具时阶段 2 自己分多轮检索完成 fan-out，平台后台/Notion 取不到时请用户粘贴。详见根目录 `AGENTS.md` / `README.md`。
+
 ## 怎么读这份 skill
 
 SKILL.md 是**编排器**，只给骨架；深水区在 `references/`，**用到哪个读哪个**（渐进式披露）：
